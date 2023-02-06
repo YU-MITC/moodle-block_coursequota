@@ -27,11 +27,11 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'block_coursequota';
 $plugin->release = '1.0.0';
-$plugin->version  = 2023020500;
+$plugin->version  = 2023020600;
 $plugin->requires = 2020061500;
 $plugin->maturity = MATURITY_STABLE;
-$plugin->supported = [39, 310, 311, 400, 401];
+$plugin->supported = [39, 401];
 $plugin->dependencies = array(
-    'local_coursequota' => 2023020500
+    'local_coursequota' => 2023020600
 );
 
